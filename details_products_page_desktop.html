@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo-ASM3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style_detail.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-inner padding-all max-container">
+            <a href="index.html" class="link-logo">
+                <img src="Pictures/SVG/logo_AI.svg" alt="">
+            </a>
+            <a href="" class="link-gh">
+                <svg>
+                    <use xlink:href="symbol-defs.svg#icon-bag-shopping-solid"></use>
+                </svg>
+                <span class="center-flex">0</span>
+            </a>
+            <button id="btn-menu" class="d-md-none">
+                <svg>
+                    <rect class="top" width="25" height="3" x="0" y="1"></rect>
+                    <rect class="mid" width="25" height="3" x="0" y="9"></rect>
+                    <rect class="bot" width="25" height="3" x="0" y="17"></rect>
+                </svg>
+            </button>
+            <form action="" class="frm-sch">
+                <input type="search" placeholder="Bạn muốn tìm gì?">
+                <button type="submit" class="center-flex">
+                    <svg>
+                        <use xlink:href="symbol-defs.svg#icon-search"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <nav class=" the-menu  d-md-block  padding-all">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <ul class="reset-list swiper-slide">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Nội thất</a></li>
+                        <li><a href="">Bàn</a></li>
+                        <li><a href="">Ghế</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Về chúng tôi</a></li>
+                        <li><a href="">Hỏi đáp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- BANNER -->
+    <section class="banner-review   max-container">
+        <div class="banner   swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide b1"></div>
+                <div class="swiper-slide b2"></div>
+                <div class="swiper-slide b3"></div>
+            </div>
+        </div>
+
+        <!-- nút tròn -->
+        <div class="banner-pagination   swiper-pagination"></div>
+        <!-- Khối review -->
+        <div class="review-blog   d-lg-block    padding-all">
+            <a href="">
+                <img src="Pictures/product/AlturaB1_816x816_crop_center.png" alt="">
+                <span>Ghế 2 trong 1 đặc biệt, phù hợp không gian cafe</span>
+            </a>
+            <a href="">
+                <img src="Pictures/product/palissade-armchair-sky-grey_14711_list.jpg" alt="">
+                <span>Ghế lưới thư giãn, thoải mái</span>
+            </a>
+            <a href="">
+                <img src="Pictures/rey-3300-fs-schwarz-sq.jpg" alt="">
+                <span>Bộ bàn ghế nhà bếp, thân thiện gia đình</span>
+            </a>
+        </div>
+    </section>
+    <!-- SECTION HEADING -->
+    <section class="max-container padding-all">
+        <h1 class="section-heading">Ghế Myanmar</h1>
+    </section>
+    <!-- DETAILS -->
+    <section class="product-detail    max-container  padding-all">
+        <section class="products-label " data-label="SALE"></section>
+        <section class="gallery">
+            <!-- ảnh lớn -->
+            <div class="big swiper">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="Pictures/pro1.jpg" alt="">
+                    <img class="swiper-slide" src="Pictures/pro2.jpg" alt="">
+                    <img class="swiper-slide" src="Pictures/product/original.jpeg" alt="">
+                    <img class="swiper-slide" src="Pictures/original.jpeg" alt="">
+                </div>
+            </div>
+            <!-- 4 ảnh nhỏ -->
+            <div class="thumbs swiper">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="Pictures/pro1.jpg" alt="">
+                    <img class="swiper-slide" src="Pictures/pro2.jpg" alt="">
+                    <img class="swiper-slide" src="Pictures/product/original.jpeg" alt="">
+                    <img class="swiper-slide" src="Pictures/original.jpeg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- ĐƯỜNG KẺ DỌC -->
+        <section class="v-line">
+            <div></div>
+        </section>
+        <!-- VÙNG THÔNG TIN -->
+        <section class="product-function">
+            <div class="product-names" style="font-weight: 600">Chia sẻ</div>
+            <a href="" class="star">
+                <svg>
+                    <use xlink:href="symbol-defs.svg#icon-star-regular"></use>
+                </svg>
+                <svg>
+                    <use xlink:href="symbol-defs.svg#icon-star-regular"></use>
+                </svg>
+                <svg>
+                    <use xlink:href="symbol-defs.svg#icon-star-regular"></use>
+                </svg>
+                <svg style="border: 2px solid #fff;">
+                    <use xlink:href="symbol-defs.svg#icon-star-regular"></use>
+                </svg>
+                <svg style="border: 2px solid #fff;">
+                    <use xlink:href="symbol-defs.svg#icon-star-regular"></use>
+                </svg>
+            </a>
+            <p class="product-name" style="font-weight: 600">SOFA MYANMAR</p>
+            <p class="product-price">1.500.000đ <del>2.000.000đ</del></p>
+            <!-- Phần số lượng -->
+            <section class="soluong max-container padding-all">
+                <div class="so-luong">
+                    <button type="button" class="giam   center-flex">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-minus"></use>
+                        </svg>
+                    </button>
+                    <input type="text" value="1">
+                    <button type="button" class="tang   center-flex">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-icons8-plus"></use>
+                        </svg>
+                    </button>
+                </div>
+            </section>
+            <!-- Nút "Thêm" "Mua ngay" -->
+            <div class="he-nut-2">
+                <a href="" class="gop">
+                    <button type="button" class="btn-them btn-main"
+                        style="background-color:#fff; color: #445463; border: solid 1px #445463;">
+                        Thêm
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-bag-shopping-solid"></use>
+                        </svg>
+                    </button>
+                </a>
+                <a href="" class="gop">
+                    <button type="button" style="border-radius: 4px;border: solid 1px #fff;" class="btn-mua btn-main">
+                        Mua ngay
+                    </button>
+                </a>
+            </div>
+        </section>
+        <!-- SOCIAL LINK -->
+        <div>
+            <section class="social">
+                <a href="" class="social-2">
+                    <svg>
+                        <use xlink:href="symbol-defs.svg#icon-facebook-square"></use>
+                    </svg>
+                </a>
+                <a href="" class="social-2">
+                    <svg>
+                        <use xlink:href="symbol-defs.svg#icon-instagram-square"></use>
+                    </svg>
+                </a>
+                <a href="" class="social-2">
+                    <svg>
+                        <use xlink:href="symbol-defs.svg#icon-twitter-square"></use>
+                    </svg>
+                </a>
+            </div>
+            </section>
+    </section>
+    <!-- SECTION HEADING-2 -->
+    <section class="max-container padding-all">
+        <h1 class="section-heading-2">Sản phẩm đã xem</h1>
+    </section>
+    <!-- PRODUCT-VIEWED -->
+    <section class="product-detail   max-container  padding-all">
+        <a href="" class="btn-pr-view">
+            <svg>
+                <use xlink:href="symbol-defs.svg#icon-arrow-left-long-solid"></use>
+            </svg>
+        </a>
+        <div class="spdx swiper">
+
+            <div class="swiper-wrapper">
+                <img class="swiper-slide" src="Pictures/product/garden-chair_black_HAY_DoSouth.jpg" alt="">
+                <img class="swiper-slide" src="Pictures/product/AndTraditionCloud-LN1-1-600x600.jpg" alt="">
+                <img class="swiper-slide" src="Pictures/product/AlturaB1_816x816_crop_center.png" alt="">
+                <img class="swiper-slide" src="Pictures/product/palissade-armchair-sky-grey_14711_list.jpg" alt="">
+                <img class="swiper-slide" src="Pictures/product/ghecotua.webp" alt="">
+                <img class="swiper-slide"
+                    src="Pictures/product/elle-executive-chair-upholstered-arms-4-star-base-2-348-65-4-2-pro-b-arcit18.jpg"
+                    alt="">
+            </div>
+        </div>
+        <a href="" class="btn-pr-view">
+            <svg>
+                <use xlink:href="symbol-defs.svg#icon-arrow-right-long-solid"></use>
+            </svg>
+        </a>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner padding-all max-container">
+            <p class="company-name">
+                <a href="index.html">FURNITURE.CARE
+                </a>
+                <br>
+                Trang trí nhà cửa
+            </p>
+
+            <ul class="reset-list social-links">
+                <li>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-facebook-square"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-instagram-square"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-twitter-square"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+            <!-- LINK MENU -->
+            <ul class="reset-list footer-menu">
+                <li><a href="index.html">Trang chủ</a></li> <!-- thêm href -->
+                <li><a href="">Nội thất</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Quà tặng</a></li>
+                <li><a href="">Về chúng tôi</a></li>
+                <li><a href="">Liên hệ</a></li>
+
+            </ul>
+            <!-- COMPANY INFO -->
+            <p class="company-info">
+                Tel: <a href="tel:0123321123">0345677777</a>
+                <br>
+                59 Pasteur, Q1, TP.HCM
+                <br>
+                Email: <a href="mailto:care@sangtaoshop.com">furniture@gmail.com</a>
+            </p>
+        </div>
+    </footer>
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <script>
+        const spdxSwiper = new Swiper('.spdx', {
+            spaceBetween: 10,
+            slidesPerView: 4,
+        });
+        var thumbSwiper = new Swiper(".thumbs", {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+        var bigSwiper = new Swiper(".big", {
+            thumbs: {
+                swiper: thumbSwiper,
+            },
+
+
+        });
+
+        document.getElementById(`btn-menu`).addEventListener(`click`, () => {
+            document.body.classList.toggle(`show-menu`);
+        })
+        // menu swiper ======== 
+        const menuSwiper = new Swiper('.the-menu > .swiper', {
+            slidesPerView: `auto`
+        });
+        // BANNER
+        const bannerSwiper = new Swiper(`.banner`, {
+            loop: true,
+            pagination: {
+                el: '.banner-pagination',
+                clickable: true,/*  =>> bấm để trượt */
+                // đổi swiper thành số 
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+            },
+            autoplay: {
+                delay: 2000,
+            },
+        });
+        // ô số lượng
+        let khoiSL = document.querySelectorAll(`.so-luong`);
+        khoiSL.forEach(k => {
+            let o_so = k.querySelector(`input`);
+            k.querySelectorAll(`button`).forEach(b =>
+                b.addEventListener(`click`, (e) =>{
+                    let n = parseInt(o_so.value);
+                    if (e.currentTarget.classList.contains(`giam`)) {
+                        n--;
+                    }
+                    else {
+                        n++;
+                    }
+                    if (n < 1) n = 1;
+                    o_so.value = n;
+                })
+            )
+        });
+    </script>
+</body>
+
+</html>

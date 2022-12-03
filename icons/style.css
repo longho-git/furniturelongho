@@ -1,0 +1,40 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-arrow-left-solid {
+  width: 0.875em;
+}
+
+.icon-arrow-right-solid {
+  width: 0.875em;
+}
+
+.icon-bag-shopping-solid {
+  width: 0.875em;
+}
+
+.icon-eye-solid {
+  width: 1.125em;
+}
+
+.icon-star-regular {
+  width: 1.125em;
+}
+
+.icon-youtube2 {
+  width: 2.5087890625em;
+}

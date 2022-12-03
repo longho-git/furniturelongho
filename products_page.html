@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo-ASM3</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="header-inner padding-all max-container">
+            <a href="index.html" class="link-logo">
+                <img src="Pictures/SVG/logo_AI.svg" alt="">
+            </a>
+            <a href="" class="link-gh">
+                <svg>
+                    <use xlink:href="symbol-defs.svg#icon-bag-shopping-solid"></use>
+                </svg>
+                <span class="center-flex">0</span>
+            </a>
+            <button id="btn-menu" class="d-md-none">
+                <svg>
+                    <rect class="top" width="25" height="3" x="0" y="1"></rect>
+                    <rect class="mid" width="25" height="3" x="0" y="9"></rect>
+                    <rect class="bot" width="25" height="3" x="0" y="17"></rect>
+                </svg>
+            </button>
+            <form action="" class="frm-sch">
+                <input type="search" placeholder="Bạn muốn tìm gì?">
+                <button type="submit" class="center-flex">
+                    <svg>
+                        <use xlink:href="symbol-defs.svg#icon-search"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <nav class="the-menu  d-md-block  padding-all">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <ul class="reset-list swiper-slide">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Nội thất</a></li>
+                        <li><a href="">Bàn</a></li>
+                        <li><a href="">Ghế</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                        <li><a href="">Về chúng tôi</a></li>
+                        <li><a href="">Hỏi đáp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- BANNER -->
+    <section class="banner-review   max-container">
+        <div class="banner   swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide b1"></div>
+                <div class="swiper-slide b2"></div>
+                <div class="swiper-slide b3"></div>
+            </div>
+        </div>
+
+        <!-- nút tròn -->
+        <div class="banner-pagination   swiper-pagination"></div>
+        <!-- Khối review -->
+        <div class="review-blog   d-lg-block    padding-all">
+            <a href="">
+                <img src="Pictures/product/AlturaB1_816x816_crop_center.png" alt="">
+                <span>Ghế 2 trong 1 đặc biệt, phù hợp không gian cafe</span>
+            </a>
+            <a href="">
+                <img src="Pictures/product/palissade-armchair-sky-grey_14711_list.jpg" alt="">
+                <span>Ghế lưới thư giãn, thoải mái</span>
+            </a>
+            <a href="">
+                <img src="Pictures/rey-3300-fs-schwarz-sq.jpg" alt="">
+                <span>Bộ bàn ghế nhà bếp, thân thiện gia đình</span>
+            </a>
+        </div>
+    </section>
+    <!-- SECTION HEADING -->
+    <section class="max-container padding-all">
+        <h1 class="section-heading">Sản phẩm</h1>
+    </section>
+    <!-- PRODUCTS -->
+    <section class="products padding-all max-container">
+        <ul class="reset-list">
+            <li>
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/product/elle-executive-chair-upholstered-arms-4-star-base-2-348-65-4-2-pro-b-arcit18.jpg"
+                        alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600" ;>GHẾ CAM XOAY</p>
+                    <p class="product-price">2.500.000đ</p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+            <li class="products-label" data-label="SALE">
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/new/AlturaB1_816x816_crop_center.jpg" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">GHẾ 2 TRONG 1</p>
+                    <p class="product-price">1.000.000đ <del>2.000.000đ</del></p>
+                    </div>
+                    <div class="he-nut">
+                        <button type="button" class="btn-xem btn-main"
+                            style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                            Xem
+                            <svg>
+                                <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                            </svg>
+                        </button>
+                </a>
+            </li>
+            <li>
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/product/1176Hay_iso_tuoli_kasinojat.webp" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">GHẾ LƯỚI ĐEN</p>
+                    <p class="product-price">1.500.000đ</p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+            <li class="products-label" data-label="SALE">
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/product/ghexanh3.png" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">GHẾ MYANMAR</p>
+                    <p class="product-price">1.200.000đ <del>3.000.000đ</del></p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+            <li>
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/product/AndTraditionCloud-LN1-1-600x600.jpg" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">SOFA 1 NGƯỜI</p>
+                    <p class="product-price">3.500.000đ</p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+            <li class="products-label" data-label="SALE">
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/rey-3300-fs-schwarz-sq.jpg" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">GHẾ TỰA ĐEN</p>
+                    <p class="product-price">1.200.000đ <del>2.200.000đ</del></p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+            <li>
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/product/palissade-armchair-sky-grey_14711_list.jpg" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">GHẾ LƯỚI</p>
+                    <p class="product-price">2.500.000đ</p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+            <li>
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/ezgif.com-gif-maker.jpg" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">SOFA MYANMAR</p>
+                    <p class="product-price">3.000.000đ</p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+            <li class="products-label" data-label="SALE">
+                <a href="" class="hinh-anh">
+                    <img src="Pictures/product/ghe2.png" alt="">
+                    <hr style="height:5px;border-width:0;color:var(--mainColor1);
+                    border-radius: 2px;
+                    background-color:var(--mainColor1)">
+                    <p class="product-name" style="font-weight: 600">GHẾ GỖ KHÔNG TỰA</p>
+                    <p class="product-price">1.500.000đ <del>2.000.000đ</del></p>
+                </a>
+                <div class="he-nut">
+                    <button type="button" class="btn-xem btn-main"
+                        style="background-color:#445463;opacity: 0.8; color: #fff;fill: #fff; border: solid 1px #fff; border-radius: 4px;">
+                        Xem
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-eye-solid"></use>
+                        </svg>
+                    </button>
+                </div>
+            </li>
+        </ul>
+    <!-- PAGINATION -->
+    </section>
+    <section class="pagination padding-all max-container">
+        <ul class="reset-list   center-flex">
+            <li>
+                <a href="" class="btn-square-page">
+                    <svg>
+                        <use xlink:href="symbol-defs.svg#icon-arrow-left-solid"></use>
+                    </svg>
+                </a>
+            <li class="d-md-none">1
+
+            <li class="d-md-flex"><a href="" class="btn-square-page  ">1</a></li>
+            <li class="d-md-flex"><a href="" class="btn-square-page cur-page">2</a></li>
+            <li class="d-md-flex"><a href="" class="btn-square-page">3</a></li>
+            <li class="d-md-flex"><a href="" class="btn-square-page">4</a></li>
+            <li class="d-md-flex"><a href="" class="btn-square-page">5</a></li>
+            <a href="" class="btn-square-page">
+                <svg>
+                    <use xlink:href="symbol-defs.svg#icon-arrow-right-long-solid"></use>
+                </svg>
+            </a>
+            </li>
+            </li>
+        </ul>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-inner padding-all max-container">
+            <p class="company-name">
+                <a href="index.html">FURNITURE.CARE
+                </a>
+                <br>
+                Trang trí nhà cửa
+            </p>
+            <ul class="reset-list social-links">
+                <li>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-facebook-square"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-instagram-square"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <svg>
+                            <use xlink:href="symbol-defs.svg#icon-twitter-square"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="reset-list footer-menu">
+                <li><a href="index.html">Trang chủ</a></li> <!-- thêm href -->
+                <li><a href="">Nội thất</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Quà tặng</a></li>
+                <li><a href="">Về chúng tôi</a></li>
+                <li><a href="">Liên hệ</a></li>
+            </ul>
+            <p class="company-info">
+                Tel: <a href="tel:0123321123">0345677777</a>
+                <br>
+                59 Pasteur, Q1, TP.HCM
+                <br>
+                Email: <a href="mailto:care@sangtaoshop.com">furniture@gmail.com</a>
+            </p>
+        </div>
+    </footer>
+    <!-- SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        document.getElementById(`btn-menu`).addEventListener(`click`, () => {
+            document.body.classList.toggle(`show-menu`);
+        })
+        // menu swiper ======== 
+        const menuSwiper = new Swiper('.the-menu > .swiper', {
+            slidesPerView: `auto`
+        });
+        // BANNER
+        const bannerSwiper = new Swiper(`.banner`, {
+            loop: true,
+            pagination: {
+                el: '.banner-pagination',
+                clickable: true,/*  =>> bấm để trượt */
+                // đổi swiper thành số 
+                renderBullet: function (index, className) {
+                    return '<span class="' + className + '">' + (index + 1) + "</span>";
+                },
+            },
+            autoplay: {
+                delay: 2000,
+            },
+        });
+    </script>
+</body>
+
+</html>
